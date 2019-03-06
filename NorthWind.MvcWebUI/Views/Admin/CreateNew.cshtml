@@ -1,0 +1,14 @@
+﻿@using NorthWind.Entities.Concrete
+@model Product
+@{
+    ViewBag.Title = "CreateNew";
+    Layout = "~/Views/Shared/_LayoutNorthwind.cshtml";
+}
+
+<h2>CreateNew</h2>
+
+@using (Html.BeginForm("CreateNew","Admin",FormMethod.Post))
+{
+    @Html.EditorForModel()
+    <input type="submit" class="btn btn-success"  value="Ekle" />
+}

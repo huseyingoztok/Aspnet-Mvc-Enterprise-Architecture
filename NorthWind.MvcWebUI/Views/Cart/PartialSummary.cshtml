@@ -1,0 +1,7 @@
+﻿@model NorthWind.Entities.Concrete.Cart
+
+
+
+<p>@Model.lines.Count Adet Ürün</p>
+<p>Toplam Fiyat :@Model.TotalPrice</p>
+<p>Ürün Sayısı :@Model.lines.Sum(x=>x.Quantity)</p>

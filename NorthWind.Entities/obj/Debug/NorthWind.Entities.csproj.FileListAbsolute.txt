@@ -1,0 +1,5 @@
+D:\SoftwareProjects\Csharp Console\CsharpdersleriEnginDemirog\YoutubeAspNetMvcKurumsalMimari\NorthWind.Entities\bin\Debug\NorthWind.Entities.dll
+D:\SoftwareProjects\Csharp Console\CsharpdersleriEnginDemirog\YoutubeAspNetMvcKurumsalMimari\NorthWind.Entities\bin\Debug\NorthWind.Entities.pdb
+D:\SoftwareProjects\Csharp Console\CsharpdersleriEnginDemirog\YoutubeAspNetMvcKurumsalMimari\NorthWind.Entities\obj\Debug\NorthWind.Entities.csproj.CoreCompileInputs.cache
+D:\SoftwareProjects\Csharp Console\CsharpdersleriEnginDemirog\YoutubeAspNetMvcKurumsalMimari\NorthWind.Entities\obj\Debug\NorthWind.Entities.dll
+D:\SoftwareProjects\Csharp Console\CsharpdersleriEnginDemirog\YoutubeAspNetMvcKurumsalMimari\NorthWind.Entities\obj\Debug\NorthWind.Entities.pdb

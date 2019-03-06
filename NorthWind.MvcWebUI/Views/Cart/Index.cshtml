@@ -1,0 +1,59 @@
+﻿@using NorthWind.Entities.Concrete
+@model Cart
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutNorthwind.cshtml";
+}
+
+<h2>Sepetteki Ürünler</h2>
+
+<table class="table table-hover table-bordered">
+    <thead>
+        <tr>
+            <th>Ürün Adı</th>
+            <th>Birim Fiyat</th>
+            <th>Adet</th>
+            <th>Fiyat</th>
+            <th>Stok</th>
+            <th>İşlemler</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.lines)
+        {
+        <tr>
+            <td>
+                @item.product.ProductName
+            </td>
+            <td>
+                @item.product.UnitPrice.ToString("c")
+            </td>
+            <td>
+                @item.Quantity
+            </td>
+            <td>
+                @((item.product.UnitPrice * item.Quantity).ToString("c"))
+            </td>
+            <td>
+                @item.product.UnitsInStock
+            </td>
+            <td>
+                <form action="/Cart/RemoveCart" method="post">
+                    <input type="hidden" name="ProductId" value="@item.product.ProductId" />
+                    <input type="number" name="Quantity" min="1" max="5" />
+                    <input type="submit" value="Ürünü Sil" />
+                </form>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>
+
+<span>Alt Toplam :</span>@Model.TotalPrice.ToString("c")
+<div>
+    <form action="/Cart/RemoveAllProduct" method="post">
+        <input type="submit" name="name" value="Tüm Ürünleri Sil" />
+    </form>
+</div>
+
+<a href="/Cart/Checkout" class="btn btn-primary">Checout</a>

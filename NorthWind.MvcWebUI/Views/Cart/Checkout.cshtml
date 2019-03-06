@@ -1,0 +1,16 @@
+﻿@model NorthWind.Entities.Concrete.ShippingDetail
+@{
+    ViewBag.Title = "Checkout";
+    Layout = "~/Views/Shared/_LayoutNorthwind.cshtml";
+}
+
+<h2>Checkout Form</h2>
+
+
+@using (Html.BeginForm("Checkout","Cart",FormMethod.Post))
+{
+    @Html.ValidationSummary(false)
+    @Html.EditorForModel();
+    <input type="submit" value="Gönder" />
+}
+

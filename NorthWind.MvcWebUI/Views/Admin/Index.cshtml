@@ -1,0 +1,39 @@
+﻿@using NorthWind.Entities.Concrete
+@model List<Product>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutNorthwind.cshtml";
+}
+
+<h2>Product List</h2>
+
+<p><a class="btn btn-success" href="/Admin/CreateNew">Create New</a></p>
+
+<table>
+    <thead>
+        <tr>
+            <th>Ürün Adı</th>
+            <th>Ürün Fiyat</th>
+            <th>Ürün Stok</th>
+            <th>Kategori</th>
+            <th>Delete</th>
+            <th>Edit</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.ProductName</td>
+                <td>@item.UnitPrice</td>
+                <td>@item.UnitsInStock</td>
+                <td>@item.CategoryID</td>
+                <td><a class="btn btn-danger" href="/Admin/Delete/@item.ProductId">Sil</a></td>
+                <td><a class="btn btn-primary" href="/Admin/Edit/@item.ProductId">Edit</a></td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+

@@ -1,0 +1,9 @@
+D:\SoftwareProjects\Csharp Console\CsharpdersleriEnginDemirog\YoutubeAspNetMvcKurumsalMimari\NorthWind.Interfaces\bin\Debug\NorthWind.Interfaces.dll
+D:\SoftwareProjects\Csharp Console\CsharpdersleriEnginDemirog\YoutubeAspNetMvcKurumsalMimari\NorthWind.Interfaces\bin\Debug\NorthWind.Interfaces.pdb
+D:\SoftwareProjects\Csharp Console\CsharpdersleriEnginDemirog\YoutubeAspNetMvcKurumsalMimari\NorthWind.Interfaces\bin\Debug\NorthWind.Entities.dll
+D:\SoftwareProjects\Csharp Console\CsharpdersleriEnginDemirog\YoutubeAspNetMvcKurumsalMimari\NorthWind.Interfaces\bin\Debug\NorthWind.Entities.pdb
+D:\SoftwareProjects\Csharp Console\CsharpdersleriEnginDemirog\YoutubeAspNetMvcKurumsalMimari\NorthWind.Interfaces\obj\Debug\NorthWind.Interfaces.csprojAssemblyReference.cache
+D:\SoftwareProjects\Csharp Console\CsharpdersleriEnginDemirog\YoutubeAspNetMvcKurumsalMimari\NorthWind.Interfaces\obj\Debug\NorthWind.Interfaces.csproj.CoreCompileInputs.cache
+D:\SoftwareProjects\Csharp Console\CsharpdersleriEnginDemirog\YoutubeAspNetMvcKurumsalMimari\NorthWind.Interfaces\obj\Debug\NorthWind.Interfaces.csproj.CopyComplete
+D:\SoftwareProjects\Csharp Console\CsharpdersleriEnginDemirog\YoutubeAspNetMvcKurumsalMimari\NorthWind.Interfaces\obj\Debug\NorthWind.Interfaces.dll
+D:\SoftwareProjects\Csharp Console\CsharpdersleriEnginDemirog\YoutubeAspNetMvcKurumsalMimari\NorthWind.Interfaces\obj\Debug\NorthWind.Interfaces.pdb
